@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/icons_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:background="@color/colorBackground"
+    tools:context=".SettingsActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLayout"
+                android:layout_marginBottom="6dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_profile"
+                        android:textStyle="bold|italic"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="28dp"
+                        android:layout_height="18dp"
+                        android:text="@string/fa_pencil_square_o"
+                        android:id="@+id/btnProfile"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorAccent"
+                        android:background="@color/colorLayout"
+                        android:layout_gravity="right" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:id="@+id/user_name"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_email"
+                    android:id="@+id/user_email"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_phone"
+                    android:id="@+id/user_phone"
+                    android:gravity="center" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLayout"
+                android:layout_marginBottom="6dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_region"
+                        android:textStyle="bold|italic"
+                        android:layout_weight="1" />
+                    <Button
+                        android:layout_width="28dp"
+                        android:layout_height="18dp"
+                        android:text="@string/fa_check_square_o"
+                        android:id="@+id/btnRegion"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorAccent"
+                        android:background="@color/colorLayout"
+                        android:layout_gravity="right" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_region"
+                    android:id="@+id/user_region"
+                    android:gravity="center" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLayout"
+                android:layout_marginBottom="6dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_account"
+                        android:textStyle="bold|italic"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_account"
+                    android:id="@+id/user_account"
+                    android:gravity="center" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLayout"
+                android:layout_marginBottom="6dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_pin"
+                        android:textStyle="bold|italic"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_pin"
+                    android:id="@+id/user_expired"
+                    android:gravity="center" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:background="#eeeeee"
+                    android:layout_height="1px"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorLayout"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="@string/fa_refresh"
+                    android:id="@+id/btnRefresh"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_gravity="right" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

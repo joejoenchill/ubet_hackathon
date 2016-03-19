@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">UTick App</string>
+    <string name="app_ver">Version 1.0</string>
+    <string name="app_dev">UBet Mobile</string>
+    <string name="app_ryt">Copyright 2016</string>
+
+    <string name="menu_about">About</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_new">Create</string>
+    <string name="menu_interest">Interests</string>
+
+    <!--LIST VIEW ITEMS-->
+    <string name="list_Numba">KAN 1</string>
+    <string name="list_Title">Greater Accra</string>
+    <string name="list_Id">1</string>
+    <string name="list_Arrow">right arrow</string>
+
+     <string name="new_ghive">
+        By creating account you agree to the terms of use and other terms stated on our website (www.videtechs.com/utick)
+    </string>
+     <string name="edit_ghive">
+        Use the fields below to edit your profile details. Internet connection is required. Please be sure you are connected to the internet. Thank you.
+    </string>
+
+    <string name="new_name">Full name:</string>
+    <string name="new_email">Email address (eg: me@example.com):</string>
+    <string name="new_phone">Phone number (eg: 0200222222):</string>
+    <string name="gh_cedi">GH¢</string>
+    <string name="btn_continue">Continue ... </string>
+
+    <!--USER ITEMS-->
+    <string name="user_name">Enoch J.T. Enchill</string>
+    <string name="user_email">ariiqx@gmail.com</string>
+    <string name="user_phone">+233265006096</string>
+    <string name="user_region">Greater Accra Region</string>
+    <string name="user_account">3645216984562</string>
+    <string name="user_pin">94375</string>
+
+    <!--PROFILE ITEMS-->
+    <string name="lbl_profile">Profile:</string>
+    <string name="lbl_region">Region:</string>
+    <string name="lbl_account">Account:</string>
+    <string name="lbl_pin">PIN:</string>
+
+     <string name="prepare_title">
+        Please wait while we get things ready...
+    </string>
+     <string name="prepare_caption">
+        We are installing the available congregations from the clouds onto your phone. Internet connection is required. Please be sure you are connected to the internet. Thank you.
+    </string>
+
+    <string name="event_title">Title:</string>
+    <string name="event_date">Date:</string>
+    <string name="event_venue">Venue:</string>
+    <string name="event_price">Price:</string>
+    <string name="event_btn">Buy Ticket</string>
+
+    <string name="share_event">Share Event</string>
+    <string name="buy_ticket">Buy Ticket</string>
+
+    <string name="new_title">Event Title:</string>
+    <string name="new_price">Ticket Price (GH¢):</string>
+    <string name="new_date">Event Date:</string>
+    <string name="new_venue">Event Venue:</string>
+    <string name="new_detail">Event Details:</string>
+</resources>
